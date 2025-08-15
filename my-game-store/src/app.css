@@ -1,0 +1,45 @@
+/* src/app.css */
+
+/* --- CSS Variables for Theme --- */
+:root {
+  --primary-yellow: #FFC815;
+  --dark-gray: #292929;
+  --medium-gray: #585858;
+  --light-gray: #F5F5F5;
+  --text-white: #FFFFFF;
+  --text-gray: #c7c7c7;
+  --border-radius: 8px;
+}
+
+/* --- Global Styles & Resets --- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: var(--medium-gray);
+  color: var(--text-white);
+}
+
+a {
+  color: var(--primary-yellow);
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+}
+
+/* --- Helper Classes --- */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
